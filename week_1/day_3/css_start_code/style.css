@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body > footer{
+    padding: 16px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+body > header{
+background-color: black;
+color: white;
+}
+#logo {
+    margin: 0;
+}
+
+nav > ul {
+list-style: none;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+.like-button{
+    background-color: transparent;
+    border: 1px solid red;
+}
+
+.share-button{
+    background-color: transparent;
+    border: 1px solid green;
+}
+
+:hover.button{
+    background-color: gray;
+}

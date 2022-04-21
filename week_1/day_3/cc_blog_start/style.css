@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+
+header{
+    padding: 16px;
+    background-color: blue;
+    color: white;
+    text-align:center;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav{
+    display:flex;
+    float: right;
+flex-flow: column nowrap;
+align-items: center;
+}
